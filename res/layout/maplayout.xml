@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:padding="5dp">
+  
+   
+    
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<TextView android:text="@string/map1" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:typeface="normal" android:textStyle="bold" android:textColor="@color/babypink"></TextView>
+</LinearLayout>
+
+
+
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="2dp">
+
+<com.google.android.maps.MapView 
+        android:id="@+id/mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:enabled="true"
+        android:clickable="true"
+        android:apiKey="0WV1gG8DkH5gEYPMh8uXcTtaUQVwvZT3ptIIl9A"
+        />
+
+ 
+<LinearLayout android:id="@+id/zoom" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true" 
+        android:layout_centerHorizontal="true" 
+        />
+
+</LinearLayout>
+
+
+
+<LinearLayout android:id="@+id/LinearLayout03" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:text="@string/lat2"></TextView>
+<TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unknown"></TextView>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/LinearLayout03" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingBottom="10dp">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:id="@+id/TextView04" android:text="@string/lon2"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unknown" android:id="@+id/TextView05"></TextView>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/LinearLayout04" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+<Button android:id="@+id/Button02" android:layout_width="wrap_content" android:text="@string/setloc" android:layout_height="50dp"></Button>
+<Button android:id="@+id/Button03" android:layout_width="wrap_content" android:text="@string/myloc" android:layout_height="50dp"></Button>
+<Button android:id="@+id/Button04" android:text="@string/view" android:layout_height="50dp" android:layout_width="fill_parent"></Button>
+
+</LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">TrackSpot</string>
+<string name="timestr">System Time:</string>
+<string name="simtitle">An Easy and Complete GPS Application</string>
+<string name="makers">\n\nDesigned By:-\n1. Hardik R. Dasadia\n2. Ankit Choudhary\n3. Chandan Prasad\n4. Tushar Patel</string>
+<string name="otherdet">\n\nVersion: 1.0\n\nUnder Guidance of:- \nProf. Ruta Mulajkar</string>
+<string name="menustr">MENU</string>
+<string name="loc1">Start Monitoring</string>
+<string name="loc2">Manual Target Selection</string>
+
+<string name="custloc">Customizing Location...</string>
+<string name="lat1">Current Latitude    :</string>
+<string name="lon1">Current Longitude :</string>
+<color name="babypink">#faf</color>
+
+<string name="ref">Refresh</string>
+
+<string name="setloc">Set Location</string>
+<string name="stat">GPS Status:</string>
+<string name="retcoords"> Retriving GPS Coordinates</string>
+<string name="map1">Select Target Location</string>
+<string name="lat2">Latitude: </string>
+<string name="lon2">Longitude</string>
+<string name="unknown">Unknown</string>
+<string name="smson">Set SMS Sensing ON</string>
+<string name="lastlat"></string>
+<string name="lastlon"></string>
+<string name="smsoff">Set SMS Sensing OFF</string>
+
+<string name="myloc">Where am I ?</string>
+<string name="view">Change Map View</string>
+<string name="sos">Add SOS Contact</string>
+<string name="rev">Find On Map</string>
+<string name="settings">Finalize settings</string>
+<string name="tarlat">Target Latitude :</string>
+<string name="tarlon">Target Longitude :</string>
+<string name="range">Enter Range :</string>
+<string name="action">Select Action :</string>
+<string name="silent">Set SILENT mode</string>
+<string name="alarm">Set an Alarm</string>
+<string name="vibrate">Set VIBRATE mode</string>
+
+<string name="toast">Toast Messages :</string>
+<string name="currmon">Monitoring...</string>
+<string name="range2">Target Range</string>
+
+<string name="dist">Distance from Target :</string>
+<string name="cancel">Cancel</string>
+<string name="save">Save Location</string>
+<string name="retrieve">Retrieve Location</string>
+<string name="locname">Location Name:</string>
+
+</resources>

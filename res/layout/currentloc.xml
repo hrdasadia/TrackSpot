@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:orientation="vertical"
+  android:layout_height="fill_parent" android:padding="7dp">
+
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+<TextView android:id="@+id/TextView07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/currmon" android:textStyle="bold" android:textSize="25dp" android:textColor="@color/babypink" android:paddingRight="10dp"></TextView>
+
+
+
+<ProgressBar android:id="@+id/ProgressBar01" android:layout_width="wrap_content" android:layout_height="wrap_content"></ProgressBar>
+</LinearLayout>
+
+
+
+<LinearLayout android:orientation="horizontal" android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingTop="20dp">
+<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lat1" android:textSize="16dp" android:textStyle="bold"></TextView>
+<TextView android:text="@+id/TextView01" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+
+
+
+<LinearLayout android:orientation="horizontal" android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingTop="20dp" android:paddingBottom="20dp">
+<TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16dp" android:textStyle="bold" android:text="@string/lon1"></TextView>
+<TextView android:text="@+id/TextView06" android:id="@+id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+
+
+
+
+
+
+<LinearLayout android:orientation="horizontal" android:id="@+id/LinearLayout04" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingBottom="20dp">
+<TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stat" android:textStyle="bold"></TextView>
+<TextView android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/retcoords"></TextView>
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:id="@+id/LinearLayout05" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingBottom="20dp">
+<TextView android:id="@+id/TextView08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tarlat" android:textStyle="bold"></TextView>
+<TextView android:id="@+id/TextView09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unknown"></TextView>
+</LinearLayout>
+
+
+<LinearLayout android:orientation="horizontal" android:id="@+id/LinearLayout05" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingBottom="20dp">
+<TextView android:id="@+id/TextView10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tarlon" android:textStyle="bold"></TextView>
+<TextView android:id="@+id/TextView11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unknown"></TextView>
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:id="@+id/LinearLayout06" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingBottom="20dp">
+<TextView android:id="@+id/TextView12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dist" android:textStyle="bold"></TextView>
+<TextView android:id="@+id/TextView13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unknown"></TextView>
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:id="@+id/LinearLayout07" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingBottom="20dp">
+<TextView android:id="@+id/TextView14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:text="@string/range2"></TextView>
+<TextView android:id="@+id/TextView15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unknown"></TextView>
+</LinearLayout>
+
+</LinearLayout>

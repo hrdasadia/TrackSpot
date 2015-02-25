@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dp">
+
+
+<LinearLayout 
+android:id="@+id/LinearLayout01" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView 
+android:text="@string/timestr" 
+android:id="@+id/TextView01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" android:editable="false" android:textStyle="bold" android:typeface="serif" android:paddingRight="5dp" android:textColor="#5a3">
+</TextView>
+<DigitalClock android:text="@+id/DigitalClock01" 
+android:id="@+id/DigitalClock01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" android:textStyle="bold" android:typeface="monospace" android:textColor="#5a3"></DigitalClock>
+</LinearLayout>
+
+
+<LinearLayout android:id="@+id/LinearLayout02" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" android:padding="5dp">
+
+<ImageView 
+android:id="@+id/ImageView01" 
+android:src="@drawable/wallpaper"
+android:layout_height="wrap_content" android:cropToPadding="true" android:layout_width="fill_parent">
+
+</ImageView>
+
+</LinearLayout>
+
+
+<LinearLayout 
+android:id="@+id/LinearLayout03" 
+android:layout_width="fill_parent" 
+android:orientation="vertical" android:layout_height="wrap_content">
+
+
+
+<TextView android:text="@string/simtitle" android:id="@+id/TextView02" android:layout_height="wrap_content" android:gravity="center" android:layout_width="fill_parent" android:typeface="serif" android:textStyle="bold|italic" android:textColor="#5A3"></TextView>
+</LinearLayout>
+
+<LinearLayout 
+android:id="@+id/LinearLayout04" 
+android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+
+
+
+<TextView android:text="@string/makers" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="5dp" android:textSize="12dp" android:textStyle="bold" android:typeface="serif" android:textColor="#5a3"></TextView>
+<TextView android:text="@string/otherdet" android:id="@+id/TextView04" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="right" android:paddingRight="5dp" android:textSize="12dp" android:textStyle="bold" android:typeface="serif" android:textColor="#5a3"></TextView>
+</LinearLayout>
+</LinearLayout>
